@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity(), FirstFragment.FirstListener,
         firstFragment!!.updateFirstText(user.toString())
     }
 
+
     fun initViews() {
         firstFragment = FirstFragment()
         secondFragment = SecondFragment()
